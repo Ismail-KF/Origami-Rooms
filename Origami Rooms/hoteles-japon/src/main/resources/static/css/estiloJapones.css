@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;400;600&family=Noto+Sans+JP:wght@300;400&display=swap');
+
+:root {
+    --color-uno: #FAF6EB;
+    --color-dos: #3B2818;
+    --color-tres: #C4A46B;
+    --color-cuatro: #BA4A30;
+    --color-cinco: #523624;
+}
+
+body {
+    background-color: var(--color-uno);
+    color: var(--color-dos);
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.navbar-brand,
+.card-title {
+    font-family: 'Noto Serif', serif;
+}
+
+
+.navbar {
+    background-color: var(--color-cinco) !important;
+    border-bottom: 3px solid var(--color-tres);
+}
+
+.navbar .nav-link {
+    color: var(--color-uno) !important;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    color: var(--color-tres) !important;
+}
+
+.card {
+    background-color: #FFFFFF;
+    border: 1px solid #EBE4D5;
+    border-radius: 2px !important;
+    box-shadow: 2px 2px 6px rgba(59, 40, 24, 0.08) !important;
+}
+
+.card-header {
+    background-color: var(--color-cinco) !important;
+    color: var(--color-uno) !important;
+    border-bottom: none;
+    border-radius: 2px 2px 0 0 !important;
+}
+
+#banner {
+    background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.10wallpaper.com%2Fwallpaper%2F3840x2160%2F2305%2FCherry_Blossoms_Chureito_Pagoda_Mount_Fuji_Tokyo_Japan_5K_3840x2160.jpg&f=1&nofb=1&ipt=a4c5425c26709fea48e96acebdbae4458a8eef34216960b5d8eb9b61be9b9b31');
+    background-size: cover;
+    background-position: center 45%;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+#banner h1,
+#banner h2,
+#banner p {
+    color: #ffffff !important;
+    text-shadow: 1px 1px 3px rgb(0, 0, 0);
+}
